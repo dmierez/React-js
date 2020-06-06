@@ -51,9 +51,19 @@ class Badges extends React.Component {
             avatarUrl:
               'https://www.gravatar.com/avatar/e74e87d40e55b9ff9791c78892e55cb7?d=identicon',
           },
+          {
+            id: '63c03386-33a2-4512-9ac1-354ad7bec5e9',
+            firstName: 'Daphney',
+            lastName: 'Torphy',
+            email: 'Ron61@hotmail.com',
+            jobTitle: 'National Markets Officer',
+            twitter: 'DaphneyTorphy96105',
+            avatarUrl:
+              'https://media-exp1.licdn.com/dms/image/C4E03AQExW27eJtQ20g/profile-displayphoto-shrink_400_400/0?e=1596672000&v=beta&t=Uj-enQjbu9bWNbgCU1r14UwIcd-VQX-XMsYIXxSb5_c'
+          },
         ],
       });
-    }, 3000);
+    }, 1);
   }
 
   componentDidUpdate(prevProps, prevState) {
